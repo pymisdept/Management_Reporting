@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ReadCashFlow.exe" version="1.0.0.3" publicKeyToken="40663678e6d7c72b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ReadCashFlow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ReadCashFlow.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Excel" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="office" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadCashFlow.exe" size="45056">
+      <assemblyIdentity name="ReadCashFlow" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wWhBzb433e4cUwvetVEo8KTu3II=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ReadCashFlow.exe.config" size="582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aWR18dgRkNFiGR1K0PuFSTmnrL8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PAULY\martinhylee" issuerKeyHash="b233e07bc504401ae0cfec729e52f1d1fc7b3fa3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cWR89fH+x91qhJCkGhb75+1tJEI=</DigestValue></Reference></SignedInfo><SignatureValue>KbCj9tMDrlRNjgiPpU+E722M1qTlfXT8tHa+X5iNtJzFIL8CHxEZXrYFo8qbNTAbQGuez7IDgRt544zaTOnQoz9o7SlNQ4jrFLrer0zYYDMYp4YOigJPR4b8EufBhRdFisVkxL5atODDMPpsIw5v/03eyoKUIanrhJAYqTndP68=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s4ITI3W2EW60sd0NB+/+jRWOjDw2YSG2MFsvRQx2Jb7zuG2hUkPTi0SqpoRTP7zm+wWlRq/1DFQ6D41vbCyVgxQrPU1zADYPDBHgKYoRrGyIAiBaEvhnknyTnzm9dzA8mRLEYDmOySrWSF0j5XcOKgvO6f5vpgGm84mgN9DmpXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="42246dede7fb161aa490846addc7fef1f57c6471" Description="" Url=""><as:assemblyIdentity name="ReadCashFlow.exe" version="1.0.0.3" publicKeyToken="40663678e6d7c72b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PAULY\martinhylee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QtiCihfIxIQBM9ouC2R0JEmTFm8=</DigestValue></Reference></SignedInfo><SignatureValue>m5QGLDEgNIn12iciX2UA9aE1I9UwuuBw/55iSorAwfn7CqSozV/M7vG7OTtQKYNqncuk+Txf/6QNgJmgWy6E9vbYuN1/i4ndpF7RygVjByoW0duUrj9P60ngpwFHwBC4i/dFhqTHCfpd+5tcFNAiwCEL0+RaDExT/KvjMS3SEno=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s4ITI3W2EW60sd0NB+/+jRWOjDw2YSG2MFsvRQx2Jb7zuG2hUkPTi0SqpoRTP7zm+wWlRq/1DFQ6D41vbCyVgxQrPU1zADYPDBHgKYoRrGyIAiBaEvhnknyTnzm9dzA8mRLEYDmOySrWSF0j5XcOKgvO6f5vpgGm84mgN9DmpXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQKZqnweI2yIdLKYn5zkRWNjAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBQAEEAVQBMAFkAXABtAGEAcgB0AGkAbgBoAHkAbABlAGUwHhcNMTIwMTE4MDMwMjQ1WhcNMTMwMTE3MDkwMjQ1WjAtMSswKQYDVQQDHiIAUABBAFUATABZAFwAbQBhAHIAdABpAG4AaAB5AGwAZQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzghMjdbYRbrSx3Q0H7/6NFY6MPDZhIbYwWy9FDHYlvvO4baFSQ9OLRKqmhFM/vOb7BaVGr/UMVDoPjW9sLJWDFCs9TXMANg8MEeApihGsbIgCIFoS+GeSfJOfOb13MDyZEsRgOY7JKtZIXSPldw4qC87p/m+mAabziaA30OalcQIDAQABMAkGBSsOAwIdBQADgYEAPEXTO1Icou3cCjYK2cm4cIwDVv5vmQtEpGajjs/KUezC75YRJV0tn4B7CDd6RXf3bL18hp/4tLeHan2CemjkcSy9FLksSnml2Bc9zMX6R0nOqEKLZruIyhuJvP0zE7jgdaA0vFrzU/KDH1BTdsNItF/WL4AJueydAadi36r0Alc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

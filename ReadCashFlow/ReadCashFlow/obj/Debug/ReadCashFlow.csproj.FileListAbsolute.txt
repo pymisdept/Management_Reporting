@@ -1,0 +1,15 @@
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\bin\Debug\ReadCashFlow.exe.config
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\bin\Debug\ReadCashFlow.exe
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\bin\Debug\ReadCashFlow.pdb
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.exe
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.pdb
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\bin\Debug\ReadCashFlow.exe.manifest
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\bin\Debug\ReadCashFlow.application
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.exe.manifest
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.application
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.Form1.resources
+D:\Data\My Documents\Visual Studio 2008\Projects\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.csproj.GenerateResource.Cache
+K:\Data-Application\MichaelLui\Financial_Report\ReadCashFlow\ReadCashFlow\bin\Debug\ReadCashFlow.exe.config
+K:\Data-Application\MichaelLui\Financial_Report\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.exe
+K:\Data-Application\MichaelLui\Financial_Report\ReadCashFlow\ReadCashFlow\obj\Debug\ReadCashFlow.pdb
